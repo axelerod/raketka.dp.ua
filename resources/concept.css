@@ -1,0 +1,244 @@
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#000000;
+	margin-left:0px;
+	margin-right:0px;
+	font-size: 12px;
+	}
+
+
+
+a{
+	color:#060;
+	}
+
+a:hover{
+	color:#F63;
+	}
+a:active{
+	color:#F30;
+	}
+.category {
+	font-size: 12px;
+	font-weight: normal;
+	color: #333;
+	background-color: #CCC;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.list {
+	border-bottom-style: none;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	background-image: url(/web/20170702192313im_/http://raketka.dp.ua/img/border.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+.list h3 .old_price{
+	color: red;
+	text-decoration: line-through;
+	display: inline-block;
+	margin-left: 10px;
+}
+.list_img {
+	border-bottom-style: none;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+#container {
+	background-color: #333;
+	margin: 0px;
+}
+#container table tr td #korzina {
+
+}
+.botable {
+	background-color: #FFF;
+	background-image: url(/web/20170702192313im_/http://raketka.dp.ua/img/top.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.base{
+	font-size:12px;
+	color:#339900;
+}
+.base h1{
+	display: inline-block;
+}
+.base .old_price{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 20px;
+	color: red;
+    /*text-decoration: line-through;*/
+}
+.frase{
+	padding-left:20px;
+	padding-top:10px;
+	color: #CCC;
+	background-color: #333;
+	}
+.foother {
+	font-size: 10px;
+	color: #666;
+	background-color: #CCC;
+}
+.news {
+	padding: 10px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+
+
+.description{
+	color:#000000;
+	font-size:12px;
+	padding: 0px;
+	}
+.basket {
+	border: 1px solid #CCC;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+.bg {
+	background-image: url(/web/20170702192313im_/http://raketka.dp.ua/img/bd_left.jpg);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+.subcategory {
+	background-color: #FFF;
+	padding: 10px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	border-top-style: solid;
+}
+#panel {
+	font-size: 12px;
+	background-color: #FFC;
+}
+.cat {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	background-color: #6C0;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.pag {
+	padding-right: 3px;
+	padding-left: 3px;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 5px;
+}
+.pag_a {
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #FF6;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	text-align: center;
+	text-decoration: none;
+}
+.course{
+	position: absolute;
+	top: 10px;
+    color: #fff;
+}
+.course div{
+	display: inline-block;
+	cursor: pointer;
+}
+.course div.active{
+	color: red;
+}
+.header_contacts{
+	text-align: right;
+    margin-right: 45px;
+    position: relative;
+    top: -13px;
+    text-shadow: 0px 1px 1px #000;
+}
+.header_contacts p{
+	margin: 0px;
+    margin-bottom: 4px;
+}
+.news_name{
+	text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.news_img{
+	width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.news_img img{
+	max-width: 100%;
+}
+.news_desk{
+	margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+/*
+     FILE ARCHIVED ON 19:23:13 Jul 02, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:40:27 Nov 02, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
